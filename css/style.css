@@ -322,6 +322,64 @@
     opacity: 0;
     display:none;
 }
+.contact{
+    font-size: 28px;
+    background-color:black;
+    height:93vh;
+}
+
+.text-center{
+    padding-top:10px;
+    text-align: center;
+    color: white
+}
+
+.form{
+    max-width:70%;
+    margin: 30px auto;
+}
+
+.form input{
+    margin: 15px 0;
+    width: 100%;
+    font-size: 18px;
+    border-radius:6px;
+}
+
+.form textarea{
+    margin: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    border-radius:6px;
+}
+.bt{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 100px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.bt:hover{
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 100px;
+    font-size: 20px;
+    background: none;
+    color: gray
+}
+
+.text-footer {
+    padding: 10px;
+    font-size: 20;
+    text-align: center;
+    color: whitesmoke;
+}
+
 @media only screen and (max-width:1140px){
     .rightNavinput {
         width: 68%;
@@ -407,65 +465,68 @@
         padding:0px 0px
     }
 }
-    @media only screen and (max-width:800px){
-        .rightNavinput {
-            width: 44%;
-            border: 2px solid white;
-            border-radius: 5px;
-            padding: 0px 5px;
-        }
-        .thumbnil img{
-            width: 100%;
-            border: 4px solid black;
-            border-radius: 30px;
-        }
-        .thumbnila img{
-            width: 100%;
-            border: 4px solid black;
-            border-radius: 30px;
-        }
-    }   
-    @media only screen and (max-width:389px){
-        .rightNavinput {
-            width: 27%;
-            border: 2px solid white;
-            border-radius: 5px;
-            padding: 0px 5px;
-        }
+@media only screen and (max-width:800px){
+    .rightNavinput {
+        width: 44%;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0px 5px;
     }
-    @media only screen and (max-width:300px){
-        .color{
-            width: 16px;
-            height: 16px;
-            border-radius: 100px;
-            background-color: white;
-    
-        }
-        .line3{
-            width: 22px;
-            background-color: white;
-            height: 3px;
-            margin: -5px 1px;
-            transform: rotate(45deg);
-        }   
-        .color2 {
-            width: 17px;
-            background-color: black;
-            height: 4px;
-            margin: -8px 0px;
-            transform: rotate(-5deg);
-            transition: all 0.5s ease-in;
-        }
-        .no{
-            height: 0px;
-            width: 0px;
-            transition: all 0.5s linear;
-            transform: rotate(447deg);
-            margin: -6px 7px;
-        }
+    .thumbnil img{
+        width: 100%;
+        border: 4px solid black;
+        border-radius: 30px;
     }
+    .thumbnila img{
+        width: 100%;
+        border: 4px solid black;
+        border-radius: 30px;
+    }
+    .text-center{
+        font-size:26px;
+    }
+}   
+@media only screen and (max-width:389px){
+    .rightNavinput {
+        width: 27%;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 0px 5px;
+    }
+}
+@media only screen and (max-width:300px){
+    .color{
+        width: 16px;
+        height: 16px;
+        border-radius: 100px;
+        background-color: white;
 
-    @media only screen and (max-width:280px){
+    }
+    .line3{
+        width: 22px;
+        background-color: white;
+        height: 3px;
+        margin: -5px 1px;
+        transform: rotate(45deg);
+    }   
+    .color2 {
+        width: 17px;
+        background-color: black;
+        height: 4px;
+        margin: -8px 0px;
+        transform: rotate(-5deg);
+        transition: all 0.5s ease-in;
+    }
+    .no{
+        height: 0px;
+        width: 0px;
+        transition: all 0.5s linear;
+        transform: rotate(447deg);
+        margin: -6px 7px;
+    }
+}
+
+@media only screen and (max-width:280px){
         .rightNav{
             padding-top: 45px;
         }
@@ -501,8 +562,31 @@
             color: gray;
             cursor: pointer;
         }
-    }
-        @media only screen and (max-width:175px){
+        .text-small{
+            font-size: 10px;
+        }
+        .btn{
+            padding: 3px 6px;
+            margin: 7px 3px;
+            border: 2px solid whitesmoke;
+            border-radius: 100px;
+            font-size: 10px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+        .btn:hover{
+                padding: 2px 5px;
+                margin: 7px 3px;
+                border: 1px solid gray;
+                border-radius: 100px;
+                font-size: 10px;
+                background: none;
+                color: gray;
+                cursor: pointer;
+        }
+}
+@media only screen and (max-width:175px){
             .rightNav{
                 padding-top: 45px;
                 padding-bottom: 2px;
@@ -526,10 +610,30 @@
                 font-size: 9px;
             }
         
-        }
+    }
 
 
-
+@media only screen and (max-height:585px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:100vh;
+    }
+}
+@media only screen and (max-height:510px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:125vh;
+    }
+}    
+@media only screen and (max-height:412px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:150vh;
+    }
+}
 @media only screen and (max-height:345px){
     .text-big{
         font-size: 18px;
@@ -556,6 +660,11 @@
             background: none;
             color: gray;
             cursor: pointer;
+    }
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:180vh;
     }
 }
 
@@ -646,14 +755,42 @@
         transform: rotate(447deg);
         margin: -6px 7px;
     }
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:210vh;
+    }
+    
 }
-.text-footer {
-    margin-top: 655px;
-    padding: 10px;
-    font-size: 20;
-    text-align: center;
-    color: whitesmoke;
+@media only screen and (max-height:253px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:250vh;
+    }    
 }
+@media only screen and (max-height:215px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:320vh;
+    }
+}
+@media only screen and (max-height:185px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:400vh;
+    }
+}
+@media only screen and (max-height:152px){
+    .contact{
+        font-size: 28px;
+        background-color:black;
+        height:800vh;
+    }
+}
+
 
 
 
