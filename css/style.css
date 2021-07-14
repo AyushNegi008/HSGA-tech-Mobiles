@@ -224,6 +224,7 @@
     border: 2px solid white;
     border-radius: 5px;
     padding: 0px 5px;
+    
 }
 .background{
     background:rgb(0,0,0,0.7)url('../img/5.jpg');
@@ -253,7 +254,6 @@
     margin: auto;
     padding: 20px;
     flex-direction: column-reverse;
-
 }
 .sectiona{
     display: flex;
@@ -263,15 +263,15 @@
     margin: auto;
     padding: 20px;
     flex-direction: column-reverse;
-
 }
 .para{
     padding-top: 10px;
+    width: 800px;
 
 }
 .paraa{
     padding-top: 10px;
-
+    width: 800px;
 }
 .paras{
     color:hsl(300, 76%, 13%);
@@ -465,6 +465,14 @@
         padding:0px 0px
     }
 }
+@media only screen and (max-width:810px){
+    .para{
+        width:-webkit-fill-available;
+    }
+    .paraa{
+        width:-webkit-fill-available;
+    }
+}
 @media only screen and (max-width:800px){
     .rightNavinput {
         width: 44%;
@@ -536,12 +544,8 @@
             border-radius: 5px;
             padding: 0px 5px;
         }
-        .text-big{
-            font-size: 14px;
-        }
-        .text-small{
-            font-size: 10px;
-        }
+        
+        
         .btn{
             padding: 3px 6px;
             margin: 7px 3px;
@@ -562,9 +566,8 @@
             color: gray;
             cursor: pointer;
         }
-        .text-small{
-            font-size: 10px;
-        }
+        
+        
         .btn{
             padding: 3px 6px;
             margin: 7px 3px;
@@ -586,7 +589,8 @@
                 cursor: pointer;
         }
 }
-@media only screen and (max-width:175px){
+
+@media only screen and (max-width:200px){
             .rightNav{
                 padding-top: 45px;
                 padding-bottom: 2px;
@@ -608,6 +612,12 @@
             }
             .paraa{
                 font-size: 9px;
+            }
+            .text-small{
+                font-size: 10px;
+            }
+            .text-big{
+                font-size: 14px;
             }
         
     }
