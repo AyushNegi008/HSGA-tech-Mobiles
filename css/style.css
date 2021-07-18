@@ -620,8 +620,8 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-fill-background-color: black;
     -webkit-background-clip: text;
-    margin-top: -331px;
-    margin-left: 109px;
+    margin-top: -335px;
+    margin-left: 100px;
     transform: rotate(22deg);
 
 }
@@ -629,14 +629,14 @@
     background: black;
     margin-left: 5%;
     color: white;
-    width: 239px;
+    width: 250px;
     font-size: 76px;
     text-align: center;
     background: linear-gradient(90deg,blue,#3131c1,#ea2e2e,red);
     -webkit-text-fill-color: transparent;
     -webkit-text-fill-background-color: black;
     -webkit-background-clip: text;
-    margin-top: 68px;
+    margin-top: 70px;
     margin-left: 420px;
     transform: rotate(22deg);
 
