@@ -1122,15 +1122,7 @@
         text-align: center;
     }
 
-}
-@media only screen and (max-width:320px){
-    .section{
-        padding:5px;
-    }
-    .sectiona{
-        padding:5px;
-    }
-}
+}   
 @media only screen and (max-width:308px){
     .disp{
         display:flex;
