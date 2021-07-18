@@ -148,6 +148,7 @@
     top: 0;
     cursor: pointer;
     height:45px;
+    z-index:1;
 }
 .nav-list{
     width: 70%;
@@ -996,11 +997,11 @@
     .d{
         height: 2px;
         width: 256px;
-        transform: rotate(
+        transform: rotate( 
     -25deg
-    );
+     );
         background-color: white;
-        margin-top: 3px;
+        margin-top: 1px;
         margin-left: -27px;
         color: white;
         text-align: center;
@@ -1008,14 +1009,14 @@
     }
     .le{
         height: 2px;
-    width: 228px;
-    background-color: white;
-    margin-top: 18px;
-    margin-left: -7px;
-    transform: rotate( 
-25deg
- );
-    border-radius: 2px;
+        width: 228px;
+        background-color: white;
+        margin-top: 19px;
+        margin-left: -9px;
+        transform: rotate( 
+    25deg
+     );
+        border-radius: 2px;
     }   
     .len{
         height: 13px;
