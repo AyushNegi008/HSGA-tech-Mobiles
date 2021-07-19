@@ -867,6 +867,13 @@
     border-bottom: solid white;
     border-top: solid white;
 }
+.rate{
+    text-align: right;
+    margin-top: -24px;
+    color: white;
+    background: black;
+    font-size: 20px;
+}
 
 @media only screen and (max-width:1140px){
     .rightNavinput {
