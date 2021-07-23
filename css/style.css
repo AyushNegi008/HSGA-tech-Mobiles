@@ -953,7 +953,7 @@
     position: absolute;
 }
 .bo{
-    height: 229px;
+    height: 296px;
     width: 470px;
     color: white;
     position: absolute;
@@ -963,8 +963,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-fill-background-color: black;
     -webkit-background-clip: text;
-    margin-top: -3px;
-    
+    margin-top: -3px;    
 }
 
 @media only screen and (max-width:1140px){
@@ -1255,7 +1254,7 @@
     position: absolute;
     }
     .bo{
-        height: 137px;
+        height: 198px;
     width: 356px;
     color: white;
     position: absolute;
@@ -1483,9 +1482,9 @@
     position: absolute;
     }
     .bo{
-        height: 98px;
+        height: 134px;
     width: 252px;
-    color: white;
+    color: rgb(235, 210, 210);
     position: absolute;
     font-size: 17px;
     text-align: center;
@@ -1581,7 +1580,7 @@
     .de{
         color: white;
     text-align: center;
-    width: 50px;
+    width: 58px;
     margin-top: -2px;
     margin-left: -50px;
     z-index: 5;
@@ -1631,7 +1630,7 @@
 90deg
  );
     margin-top: -1px;
-    margin-left: -9px;
+    margin-left: -17px;
     z-index: 3;
     
     }
@@ -2240,8 +2239,6 @@
         
     }
 }
-
-
 @media only screen and (max-height:292px){
     .rightNav{
         height: 30px;
